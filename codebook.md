@@ -29,12 +29,12 @@ In "data", rename each row in the "y" column according to the "activity_labels.t
 
 4.Appropriately labels the data set with descriptive variable names.
 
-a. rename the "data": the first column is named "subject", and the second colunm "activity". The rest of the columns would be names according to the second column of the data set of "names".
+a. Rename the "data": the first column is named "subject", and the second colunm "activity". The rest of the columns would be names according to the second column of the data set of "names".
 
-b. since there are some abbreviations in the "names", find them and replace with full names.
+b. Since there are some abbreviations in the "names", find them and replace with full names.
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Use the ddply function in the plyr library to do the calculation and store the result in the data set of "data_final"
 
-6. output the result into a txt file.
+6.Output the result into a txt file.
